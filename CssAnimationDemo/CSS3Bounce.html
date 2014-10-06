@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .user_portrait
+        {
+            height: 200px;
+            width: 200px;
+            background-image:url('../img/me_200x200.jpg');
+            box-shadow: 0 0 0 5px #999999;
+            border-radius: 200px;
+            cursor: pointer;
+            -webkit-animation:bounce 0.4s infinite linear;
+            -moz-animation:bounce 0.4s infinite linear;
+            -ms-animation:bounce 0.4s infinite linear;
+            -o-animation:bounce 0.4s infinite linear;
+            animation:bounce 0.4s infinite linear;
+        }
+
+        @-webkit-keyframes bounce {
+            0%,75%{ box-shadow: 0 0 0 4px #999999; opacity:1;}
+            25%{ box-shadow: 0 0 0 1px #999999; opacity:1;}
+            50%{ box-shadow: 0 0 0 7px #999999; opacity:1; }
+            100%{ box-shadow: 0 0 0 5px #999999; opacity:1;}
+        }
+        @-moz-keyframes bounce {
+            0%,75%{ box-shadow: 0 0 0 4px #999999; opacity:1;}
+            25%{ box-shadow: 0 0 0 1px #999999; opacity:1;}
+            50%{ box-shadow: 0 0 0 7px #999999; opacity:1; }
+            100%{ box-shadow: 0 0 0 5px #999999; opacity:1;}
+        }
+        @-ms-keyframes bounce {
+            0%,75%{ box-shadow: 0 0 0 4px #999999; opacity:1;}
+            25%{ box-shadow: 0 0 0 1px #999999; opacity:1;}
+            50%{ box-shadow: 0 0 0 7px #999999; opacity:1; }
+            100%{ box-shadow: 0 0 0 5px #999999; opacity:1;}
+        }
+        @-o-keyframes bounce {
+            0%,75%{ box-shadow: 0 0 0 4px #999999; opacity:1;}
+            25%{ box-shadow: 0 0 0 1px #999999; opacity:1;}
+            50%{ box-shadow: 0 0 0 7px #999999; opacity:1; }
+            100%{ box-shadow: 0 0 0 5px #999999; opacity:1;}
+        }
+        @keyframes bounce {
+            0%,75%{ box-shadow: 0 0 0 4px #999999; opacity:1;}
+            25%{ box-shadow: 0 0 0 1px #999999; opacity:1;}
+            50%{ box-shadow: 0 0 0 7px #999999; opacity:1; }
+            100%{ box-shadow: 0 0 0 5px #999999; opacity:1;}
+        }
+    </style>
+</head>
+<body>
+    <div class="user_portrait"></div>
+</body>
+</html>
