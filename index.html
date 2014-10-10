@@ -21,7 +21,14 @@
     <!--use local bootstrap library-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- Sweet Alert   http://tristanedwards.me/sweetalert-->
+    <link rel="stylesheet" href="css/sweet-alert.css">
+
+
+
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweet-alert.min.js"></script>
 
 
     <!-- use the online CDN version bootstrap library -->
@@ -94,6 +101,22 @@
         <br />
 
         <br />
+
+        <div>
+            <h3>Sweet Alert</h3>
+        </div>
+        <div class="btn-toolbar" role="toolbar">
+            <button type="button" class="btn btn-default" onclick="swal('Here is a basic message')">Basic Message</button>
+            <button type="button" class="btn btn-default" onclick="swal('Here is a message!', 'It is pretty, is not it?')">Title with a text under</button>
+            <button type="button" class="btn btn-default" onclick="swal('Error...', 'You clicked the Left button', 'error')">Error</button>
+            <button type="button" class="btn btn-default" onclick="swal('Success!', 'You clicked the Middle button', 'success')">Success</button>
+            <button type="button" class="btn btn-default" onclick="swal('Warning...', 'You clicked the Right button', 'warning')">Warning</button>
+            <button type="button" class="btn btn-default" onclick="swal('Info...', 'You clicked the Right button', 'info')">Info</button>
+            <button type="button" class="btn btn-default" onclick="swal({title: 'Sweet!', text: 'Here is a custom image.', imageUrl: 'img/me_200x200.jpg'})">With Icon</button>
+        </div>
+
+
+        <br /><br />
 
         <div class="btn-toolbar" role="toolbar">
             <div class="btn-group btn-group-lg">
